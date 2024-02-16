@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(90deg, #200122, #6f0000);
+
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Raleway";
+}

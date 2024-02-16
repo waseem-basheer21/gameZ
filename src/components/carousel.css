@@ -1,0 +1,90 @@
+.heroSection {
+  /* background-image: url("controller.png"); */
+  opacity: 0.9;
+  padding-top: 100px;
+  margin-top: 0.5px;
+  border: 1px;
+  border-color: slategray solid;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 580px;
+  width: 1350px;
+  position: relative;
+  margin: auto;
+}
+
+img {
+  height: 280px;
+  width: 100%;
+  user-select: none;
+}
+
+.arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  fill: drop-shadow(0 0 5px #555);
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.indicators {
+  display: flex;
+  position: absolute;
+  margin-top: 30rem;
+  gap: 4px;
+}
+
+.indicator:hover {
+  cursor: pointer;
+}
+
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px #555;
+}
+
+.indicator-inActive {
+  background-color: grey;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 7px #666;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    height: 100px;
+    width: auto;
+    margin-top: 70px;
+  }
+
+  .indicators {
+    margin-top: 10rem;
+  }
+}

@@ -1,0 +1,37 @@
+.gameDetailCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.gameDetailImage {
+  height: 490px;
+  margin-bottom: 20px;
+  width: 820px;
+  border: 1px solid;
+  outline: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 3px white;
+}
+
+.gameDetailDes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 1.2rem;
+  height: auto;
+  width: auto;
+  padding: 12px;
+  text-align: justify;
+  /* border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0 0 5px slategray;
+  outline: none;
+  border-color: white; */
+}

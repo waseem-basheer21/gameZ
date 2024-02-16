@@ -1,0 +1,32 @@
+.gameCard{
+    height: 370px;
+    width: 300px;
+    text-align: center;
+    /* border: 2px solid; */
+    border-radius: 40px 40px 20px 20px;
+    filter: drop-shadow(4px 6px 2px grey);
+    outline: none;
+    /* border-color: white; */
+    background-color: #ffffff;
+   
+}
+
+.cardImage{
+    
+    height: 260px;
+    width: 100%;
+    border-radius: 40px 40px 20px 100px;
+   /* border-top-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px; */
+}
+
+.gameCard:hover{
+    height: 400px;
+    box-shadow: 0 0 7px silver;
+    cursor: pointer;
+}
+
+
+
+
