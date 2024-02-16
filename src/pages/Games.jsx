@@ -7,7 +7,7 @@ const Games = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const key = "ee06e0fd2b014aab8ae0d70566786513";
+  const key = "";
 
   useEffect(() => {
     const fetchGames = async () => {
